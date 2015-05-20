@@ -1,0 +1,28 @@
+//
+//  searchResultView.swift
+//  barakah
+//
+//  Created by $MzN$ on 5/18/15.
+//  Copyright (c) 2015 snapsell. All rights reserved.
+//
+
+import UIKit
+
+class searchResultView: UIViewController {
+    var received:String = ""
+    var tit:String? = nil
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        println(received)
+        println(tit)
+        
+        println("jsoidjf")
+        // Do any additional setup after loading the view.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+}
